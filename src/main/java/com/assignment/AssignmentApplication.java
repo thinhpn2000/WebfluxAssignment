@@ -1,4 +1,5 @@
 package com.assignment;
+import com.assignment.blockhound.MyBlockhoundIntegration;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +10,7 @@ import reactor.blockhound.BlockHound;
 @OpenAPIDefinition(info = @Info(title = "API document for assignment", version = "1.0", description = "Documentation APIs v1.0"))
 public class AssignmentApplication {
 	public static void main(String[] args) {
-		BlockHound.install();
+		BlockHound.install(new MyBlockhoundIntegration());
 		SpringApplication.run(AssignmentApplication.class, args);
 	}
 
