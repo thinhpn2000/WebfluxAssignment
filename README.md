@@ -20,5 +20,22 @@ Assignment about Spring Webflux for new comer
 - [Springdoc-OpenApi-3](https://springdoc.org/) <br/>
 - [JJWT](https://github.com/jwtk/jjwt) <br/>
 
+## `How to run`
+
+### Step 1: Clone project from Github
+- Use: git clone https://github.com/thinhpn2000/WebfluxAssignment (at folder that you want to contain).
+### Step 2: Set up Database
+- Click assignment_db.sql and open with MySQL Workbench 8.0 CE
+- Excute script to create database.
+### Step 3: Open project with IntelliJ IDEA
+- Open IntelliJ IDEA, select open project.
+- Waiting for IntelliJ IDEA load Maven Dependency.
+### Step 4: Change file application.properties
+- Open file application.properties with classpath: WebfluxAssignment/src/main/resources/
+- Edit attribute "spring.r2dbc.password", write your MySQL Server password for create connection project with database.
+### Step 5: Run project
+- Click run project in IntelliJ IDEA.
+- Accept lombok annotation (if required).
+
 ## `Contributors:`
 - Pham Ngoc Thinh - KMSID: 2768 - email: thinhnpham@kms-technology.com
