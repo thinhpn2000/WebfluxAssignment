@@ -6,7 +6,7 @@ Assignment about Spring Webflux for new comer
 
 - IntelliJ IDEA Community Edition 2022.2.2
 - Git/GitHub: store source code of the whole project.
-- Programming language: Java
+- Programming language: Java 11
 - MySQL Workbench 8.0 CE and MySQL Community Server.
 
 ## `Libraries`
