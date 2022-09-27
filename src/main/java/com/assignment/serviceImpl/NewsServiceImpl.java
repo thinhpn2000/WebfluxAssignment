@@ -15,7 +15,7 @@ public class NewsServiceImpl implements NewsService {
 //    @Override
 //    public Flux<News> findAll() {
 //        return Flux.generate((SynchronousSink<News> sink) ->
-//                sink.next(new News(RandomStringUtils.randomAlphanumeric(15),RandomStringUtils.randomAlphanumeric(39))))
-//                .delayElements(Duration.ofSeconds(1L));
+//                        sink.next(new News(RandomStringUtils.randomAlphanumeric(15), RandomStringUtils.randomAlphanumeric(39))))
+//                .delayElements(Duration.ofSeconds(1L)).take(10);
 //    }
 }

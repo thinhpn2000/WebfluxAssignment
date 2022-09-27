@@ -44,7 +44,11 @@ public class SecurityConfig {
                 .authenticationManager(authenticationManager)
                 .securityContextRepository(securityContextRepository)
                 .authorizeExchange()
-                .pathMatchers("/auth/login","/v3/api-docs/**", "/swagger-ui.html/**", "/webjars/**")
+                .pathMatchers("/auth/login",
+                                            "/news",
+                                            "/v3/api-docs/**",
+                                            "/swagger-ui.html/**",
+                                            "/webjars/**")
                 .permitAll()
                 .anyExchange().authenticated()
                 .and()
