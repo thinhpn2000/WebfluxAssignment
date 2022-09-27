@@ -31,7 +31,6 @@ public class UserController {
     public Flux<User> getAllUser(){
         SomeThingBlocking someThingBlocking = new SomeThingBlocking();
         someThingBlocking.printBlocking();
-        Object userDetails = ReactiveSecurityContextHolder.getContext();
         return userService.findAll();
     }
 }
