@@ -38,4 +38,4 @@ Assignment about Spring Webflux for new comer
 - Accept lombok annotation (if required).
 
 ## `Contributors:`
-- Pham Ngoc Thinh - KMSID: 2768 - email: thinhnpham@kms-technology.com
+- Pham Ngoc Thinh
